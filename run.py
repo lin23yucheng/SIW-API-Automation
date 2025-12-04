@@ -8,7 +8,7 @@ import psutil
 import signal
 from common.Log import MyLog, set_log_level
 from multiprocessing import Process, Manager
-from bash.push.client_bash import push_images_manual
+# from bash.push.client_bash import push_images_manual
 
 # 推送到 GitLab
 # git push origin main
