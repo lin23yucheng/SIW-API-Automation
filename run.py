@@ -10,6 +10,12 @@ from common.Log import MyLog, set_log_level
 from multiprocessing import Process, Manager
 from bash.push.client_bash import push_images_manual
 
+# 推送到 GitLab
+# git push origin main
+
+# 推送到 GitHub
+# git push github main
+
 # 添加全局变量来跟踪是否需要生成报告
 should_generate_report = True
 allure_results = os.path.join(os.getcwd(), "report", "allure-results")
