@@ -17,7 +17,7 @@ miaispacemanageid = config.get(section, "miaispacemanageid")
 
 if env == "dev":
     token_url = ""
-    username = "redisredis"
+    username = ""
     password = 123456
     url = ""
     code = miai_product_code
@@ -25,7 +25,7 @@ if env == "dev":
 else:
     if env == "fat":
         token_url = ""
-        username = "linyucheng"
+        username = ""
         password = 123456
         url = ""
         code = miai_product_code
