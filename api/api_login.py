@@ -8,7 +8,7 @@ import configparser
 # 读取配置
 config = configparser.ConfigParser()
 config.read("./config/env_config.ini")
-section = "Inspection"
+section = "Environment"
 
 env = config.get(section, "execution_env")
 space_name = config.get(section, "space_name")
